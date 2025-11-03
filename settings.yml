@@ -8,3 +8,23 @@ tile_background: true
 no_background_image:
   default: false
   description: Disable the background image and tiling settings above.
+
+# Music Player Settings
+music_player_enabled:
+  default: true
+  description: Enable or disable the music player on the homepage
+
+music_player_url:
+  type: string
+  default: "//music.163.com/outchain/player?type=0&id=5424464870&auto=1&height=90"
+  description: Music player URL (NetEase Cloud Music)
+
+music_player_width:
+  type: integer
+  default: 330
+  description: Width of the music player
+
+music_player_height:
+  type: integer
+  default: 110
+  description: Height of the music player

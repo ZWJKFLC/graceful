@@ -37,6 +37,28 @@
   }
 }
 
+.music-player-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: var(--secondary);
+  padding: 8px;
+  
+  @media screen and (width <= 768px) {
+    bottom: 10px;
+    right: 10px;
+    transform: scale(0.9);
+  }
+  
+  iframe {
+    border-radius: 4px;
+  }
+}
+
 #main {
   // need to show this above the background container
   // can't use z-index: -1 because of a bug with pinch zoom
