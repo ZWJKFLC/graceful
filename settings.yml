@@ -11,6 +11,7 @@ no_background_image:
 
 # Music Player Settings
 music_player_enabled:
+  type: bool
   default: true
   description: Enable or disable the music player on the homepage
 
